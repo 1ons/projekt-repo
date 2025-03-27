@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Hamsterito WEB</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="jss/base.js"></script>
+    <script src="jss/appear.js"></script>
+    <script src="jss/karousel.js"></script>
+    <script src="jss/animation.js"></script>
+    <script src="jss/tariff.js"></script>
+    <script src="jss/homa.js"></script>
+    <link rel="icon" type="image/png" href="img/hamster coin.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    </head>
+    <body>
+        <div class="container">
+            <!-- навбар -->
+            <div class="header" id="sticky-header">
+                <div class="logo">
+                    <img src="img/hamster coin.png" class="hamsterlogo">
+                    <h2 style="margin-left: 10px; color: #333; font-weight: bolder; line-height: 1.2%; color: #bc9101; display: inline-block;">HMSTERITO</h2>
+                </div>
+                <div class="menu">
+                    <a href="kliker.html">Тапалка</a>
+                    <a href="#">Мерч</a>
+                    <a href="#" class="active">Конкуренты</a>
+                </div>
+                <button class="cta-button">Заказать отчет графика</button>
+            </div>
+            
+            <!-- 1 секция -->
+            <div class="container">
+                <div class="header">
+                    <h1>
+                        Следите за ценой $HMSTR на 
+                        <span class="wildberries">BINANCE</span>
+                        и 
+                        <span class="ozon">
+                           CoinMarketCap
+                        </span>
+                        при помощи платформы Hamsterito
+                    </h1>
+                </div>
+                
+                    
+                <div class="content3">
+                    <!-- График слева -->
+                    <div class="chart-dashboard">
+                        <canvas id="priceChart"></canvas>
+                    </div>
+                
+                    <!-- Текстовые преимущества справа -->
+                    <div class="features">
+                        <div class="feature">
+                            <h3>Погодите-ка, что-то здесь не так...</h3>
+                            <p>Отслеживайте вашего любимого хомяка на разных платформах через этот сайт!.</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <h3>Аналитика хамстера</h3>
+                            <p>Круто. А почему - здесь вы можете смотреть за ценой токена, прыгает ли он вверх или фиксируется на одном месте.</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <h3>Продажа</h3>
+                            <p>Следите за резкими скачками токена как на родео.</p>
+                        </div>
+                        
+                        <button class="cta-button">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 4V20M4 12H20" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Получить показ
+                        </button>
+                        
+                        <a href="#" class="register-link">Зарегистрироваться на платформе</a>
+                    </div>
+                </div>
+            </div>
+     <!-- 2 секция -->
+            <div class="container2">
+                <h1>Изучайте продажи на других площадках,<br>стоит найти выгодное предложение, чтобы вашему Хомячку понравилось!</h1>
+                <div class="grid2">
+                    <div class="card2">
+                        <h2>Узнайте продажи площадок</h2>
+                        <p>Найдете что-то лучшее по цене токена - берите! Кто успел - тот и купил, так что быстрее!</p>
+                    </div>
+                    <div class="card2">
+                        <h2>Это модно</h2>
+                        <p>Актуально, модно и круто. Это же хомяк, подминай под себя этот мир игорный.</p>
+                    </div>
+                    <div class="card2">
+                        <h2>Реагируйте на цены</h2>
+                        <p>Да-да, вот чем оно вам поможет, если собираетесь снайпить хомяка по всем фронтам.</p>
+                    </div>
+                    <div class="card2">
+                        <h2>Изучайте рост</h2>
+                        <p>Смотрите как скачет цена в разные стороны, ведь только так можно фиксировать прибыль по доступной цене.</p>
+                    </div>
+                   <!-- <img src="img/Hamster-Kombat-game-696x392.jpg" class="hamsterpng">-->
+                </div>
+            </div>
+
+
+
+        <!-- 3 секция-->
+        <div class="container3">
+            <div class="navigation3">
+                <h1>Wecheck — это новый уровень аналитики рынка</h1>
+                <div class="navigation-controls3">
+                    <button class="nav-button3 prev-btn">&#10094;</button>
+                    <button class="nav-button3 active3 next-btn">&#10095;</button>
+                </div>
+            </div>
+        
+            <div class="slider-wrapper3">
+                <div class="features3" id="featuresContainer">
+                    <div class="feature-card3">
+                        <div class="feature-title3">Показываем рост по датам</div>
+                        <div class="feature-link3">Подробнее →</div>
+                    </div>
+                    <div class="feature-card3">
+                        <div class="feature-title3">Следим за изменениями</div>
+                        <div class="feature-link3">Подробнее →</div>
+                    </div>
+                    <div class="feature-card3">
+                        <div class="feature-title3">Анализируем по площадкам</div>
+                        <div class="feature-link3">Подробнее →</div>
+                    </div>
+                    <div class="feature-card3">
+                        <div class="feature-title3">Изучаем динамику роста</div>
+                        <div class="feature-description3"></div>
+                        <div class="feature-link3">Подробнее →</div>
+                    </div>
+                    <div class="feature-card3">
+                        <div class="feature-title3">Ценовой мониторинг токена</div>
+                        <div class="feature-description3"></div>
+                        <div class="feature-link3">Подробнее →</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+            <div class="how-it-works3">
+                <h2>Как это работает</h2>
+                
+                <div class="workflow3">
+                    <div class="workflow-path3">
+                    </div>
+                    
+                    <div class="workflow-item3">
+                        <div class="workflow-icon3">1</div>
+                        <p>Сканируем каждый день на разных площадках</p>
+                        <div class="marketplace-logos3">
+                            <span class="wildberries3">BINANCE</span> и 
+                            <span class="ozo3">CoinMarketCap 
+                                <span class="soon-badge3">Скоро</span>
+                                <div class="notification-banner3">Площадки скоро будут доступны</div>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="workflow-item3">
+                        <div class="workflow-icon3">2</div>
+                        <p>Собранные данные сформируем в удобную информацию для пользователя</p>
+                    </div>
+                    
+                    <div class="workflow-item3">
+                        <div class="workflow-icon3">3</div>
+                        <p>Сравнивайте данные за разные периоды времени</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5 slide -->
+        <h1>Для кого подойдет?</h1>
+        
+        <div class="grid-container4">
+            <div class="card4">
+                <img class="icon4" src="img/boss.jpg" alt="Head of ecommerce/CMO">
+                <div class="title4">CEO</div>
+                <div class="description4">
+                    Оценить текущее положение своей компании на рынке. Поможет понять конкурентную среду, выявить ключевые тренды и определить, какие стратегии работают у лидеров отрасли.
+                </div>
+            </div>
+            
+            <div class="card4">
+                <img class="icon4" src="img/cigan.jpg" alt="Собственник бизнеса">
+                <div class="title4">Директор</div>
+                <div class="description4">
+                    Принять стратегически обоснованные решения. Даст полное представление о конкурентной среде, покажет сильные и слабые стороны компании и поможет оптимизировать бизнес-процессы.
+                </div>
+            </div>
+            
+            <div class="card4">
+                <img class="icon4" src="img/judge sol.jpg" alt="Руководителю рекламного агентства">
+                <div class="title4">Руководителю рекламного агентства</div>
+                <div class="description4">
+                    Создать эффективные маркетинговые стратегии для клиентов. Поможет детально изучить конкурентный ландшафт, определить рабочие рекламные инструменты и наметить стратегию позиционирования.
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid-container-bottom4">
+            <div class="card4">
+                <img class="icon4" src="img/slowpoke.png" alt="Руководителю на новом месте работы">
+                <div class="title4">Обычному пареньку</div>
+                <div class="description4">
+                    Разобраться, как устроен рынок и бизнес. Поможет понять, какие компании доминируют, какие технологии они используют и какие возможности открываются для новичков.
+                </div>
+            </div>
+            
+            <div class="card4">
+                <img class="icon4" src="img/magistr.jpg" alt="Предпринимателю при запуске бизнеса">
+                <div class="title4">Миллиардеру</div>
+                <div class="description4">
+                    Следить за основными игроками рынка и находить новые точки роста. Покажет ключевые тренды, направления инвестиций и перспективные ниши, в которые можно вложиться.
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- 6 слайд -->
+        <div class="containerg5">
+            <div class="tariff-header5">
+                <h1>Наши тарифы</h1>
+                <div class="tariff-buttons5">
+                    <button onclick="changePlan('week')">Неделя</button>
+                    <button class="active5" onclick="changePlan('month')">Месяц</button>
+                    <button onclick="changePlan('3months')">3 месяца <span class="discount5">-20%</span></button>
+                    <button onclick="changePlan('6months')">6 месяцев <span class="discount5">-30%</span></button>
+                    <button onclick="changePlan('year')">Год <span class="discount5">-40%</span></button>
+                </div>
+            </div>            
+            <div class="discount-banner5">Стоит поторопиться! Скоро скидки на подписку пропадут...</div>
+            <div class="tariff-cards5">
+                <div class="tariff-card5">
+                    <div class="tariff5">
+                        <span class="badgew5">Обычный</span>
+                        <div class="tariff-content5">
+                            <h2>БАЗА</h2>
+                            <div class="price5">
+                                <span class="old-price5">5 990 тг.</span>
+                                <span class="new-price5">4 900 тг.</span>
+                            </div>
+                        </div>
+                        <p class="sub-text5">В МЕСЯЦ</p>
+                    </div>                     
+                    <ul>
+                        <li><span class="text5">Данные доступны за неделю</span> <span class="question5">?</span></li>
+                        <li><span class="text5">Аналитика</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <div class="uh5"><uh>Площадок, категорий, брендов, продавцов, товаров</uh></div>
+                        <li><span class="text5">Новинки по другим токенам</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Автоматический калькулятор</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Листинг</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                        <li><span class="text5">Авто-снайпинг</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                        <li><span class="text5">Поиск</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                        <li><span class="text5">Акции</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                        <li><span class="text5">Важная информация</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                        <li><span class="text5">Периодная статистика</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                    </ul>
+                    
+                    <button class="btn5 bass5">Приобрести</button>
+                </div>
+                <div class="tariff-card5 expert5">
+                    <div class="tariff5">
+                        <span class="badge5">РЕКОМЕНДУЕМЫЙ</span>
+                        <div class="tariff-content5">
+                            <h2>ПРО</h2>
+                            <div class="price5">
+                                <span class="old-price5">7 900 тг.</span>
+                                <span class="new-price5">5 900 тг.</span>
+                            </div>
+                        </div>
+                        <p class="sub-text5">В МЕСЯЦ</p>
+                    </div>  
+                    <ul>
+                        <li><span class="text5">Данные доступны за месяц</span> <span class="question5">?</span></li>
+                        <li><span class="text5">Аналитика</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <div class="uh5"><uh>Площадок, категорий, брендов, продавцов, товаров</uh></div>
+                        <li><span class="text5">Новинки по другим токенам</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Автоматический калькулятор</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Листинг</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Авто-снайпинг</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                        <li><span class="text5">Поиск</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                        <li><span class="text5">Акции</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                        <li><span class="text5">Важная информация</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Периодная статистика</span> <span class="question5">?</span> <span class="line5"></span> <span class="crossmark5">&#10008;</span></li>
+                    </ul>
+                    <button class="btn5">Проибрести</button>
+                </div>
+                <div class="tariff-card5 enterprise5">
+                    <div class="tariff5">
+                        <span class="badge5">ТОПОВЫЙ</span>
+                        <div class="tariff-content5">
+                            <h2>ХАКЕР</h2>
+                            <div class="price5">
+                                <span class="old-price5">10 900 тг.</span>
+                                <span class="new-price5">9 999 тг.</span>
+                            </div>
+                        </div>
+                        <p class="sub-text5">В МЕСЯЦ</p>
+                    </div>                                  
+                    <ul>
+                        <li><span class="text5">Данные доступны за все время</span> <span class="question5">?</span></li>
+                        <li><span class="text5">Аналитика</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <div class="uh5"><uh>Площадок, категорий, брендов, продавцов, товаров</uh></div>
+                        <li><span class="text5">Новинки по другим токенам</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Автоматический калькулятор</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Листинг</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Авто-снайпинг</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Поиск</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Акции</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Важная информация</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                        <li><span class="text5">Периодная статистика</span> <span class="question5">?</span> <span class="line5"></span> <span class="checkmark5">&#10004;</span></li>
+                    </ul>
+                    <button class="btn5 disabled5">Приобрести</button>
+                </div>
+            </div>
+            <div class="ad5">
+                Остались вопросы? <span class="icon5"></span> 
+                <a href="https://www.youtube.com/watch?v=eGio8RW_fqQ">Посмотрите видео-гайд</a> с подробной демонстрацией функционала HMSTERITO
+            </div>
+        </div>
+
+        <!-- 7 слайд -->
+        <div class="wrapper">
+            <h1 class="heading">Почему с нами удобно?</h1>
+            <div class="navPanel"></div>
+            <div class="mainSection">
+                <div class="highlight">
+                    <img src="img/отчеты.png" alt="Отчеты">
+                    <p class="highlight-info"><b>Просматривайте отчеты</b> у нас, <b>экспортируйте отчет о покупке токенов себе.</b> Позволяйте себе намного больше, чем должны. </p>
+                </div>
+                <div class="highlight">
+                    <img src="img/оплата.png" alt="Оплата">
+                    <p class="highlight-info"><b>Удобная оплата сразу на сайте.</b> Очень быстрая покупка крипты, позволяющая отправлять запросы покупки сразу на любую платформу. </p>
+                </div>
+                <div class="highlight">
+                    <img src="img/таймер.png" alt="Кастомный отчет">
+                    <p class="highlight-info">Время отклика? Переживать не стоит, крипта сразу приходит вам на <b>кошелек.</b> Быстрые транзакции и переводы крипты между другими людьми. </p>
+                </div>
+            </div>
+            <div class="sidePanel"></div>
+        </div>
+    
+        <!-- 8 слайд вопросы -->
+        <div class="questions-box">
+            <h2 class="questionHeading">Ответы на ваши вопросы</h2>
+            
+            <div class="question-entry">
+                <div class="question-title">Как вы знаете продажи токенов на разных платформах? <span class="marker">▼</span></div>
+                <div class="question-content">Используем API этих сервисов для получения данных и снайпинга цены токена.</div>
+            </div>
+            
+            <div class="question-entry">
+                <div class="question-title">Что вообще такое "Hamster coin"? <span class="marker">▼</span></div>
+                <div class="question-content">Просто независимый токен.</div>
+            </div>
+            
+            <div class="question-entry">
+                <div class="question-title">Как быстро обновляется прайс токена? <span class="marker">▼</span></div>
+                <div class="question-content">Данные обновляются ежесекундно, график впринципе себя так и представляет.</div>
+            </div>
+    
+            <div class="question-entry">
+                <div class="question-title">Мало вопросов? <span class="marker">▼</span></div>
+                <div class="question-content">Все ясно и так, для чего нужен <em>HMSTERITO</em></div>
+            </div>
+        </div>
+
+        <!--телега-->
+        <div class="telegram-box">
+            <img src="img/telegram logo.png" alt="Telegram">
+            <a href="https://t.me/wiIlors" target="_blank">
+                Остались вопросы? Задайте в Telegram чате ›
+            </a>
+        </div>
+
+        <!--9 слайды, конец, вино и футер-->
+        <div class="showcase-box">
+            <div class="showcase-info">
+                <h2>Стоит самому попробовать</h2>
+                <p>Создайте себе аккаунт здесь.<br>Узнайте как тут устроино.</p>
+                <button class="showcase-btn">Перейти</button>
+            </div>
+            <div class="showcase-visual">
+                <img src="img/homyak.png" alt="Демо-доступ">
+            </div>
+        </div>
+
+        <div class="newsletter-box">
+            <p class="newsletter-heading">
+                Хочешь получать советы по анализу конкурентов? Раз в месяц, без спама
+            </p>
+            <div class="newsletter-inputs">
+                <input type="email" placeholder="Введите ваш e-mail">
+                <button class="newsletter-btn">Подписаться</button>
+            </div>
+        </div>
+        
+        <footer class="bottomBar">
+            <div class="bottomBar-wrapper">
+                <div class="bottomBar-section">
+                    <p class="bottomBar-header">Свяжитесь с нами:</p>
+                    <a href="https://hamsterkombatgame.io/" class="bottomBar-url"><em>wsg@hamster.com</em></a>
+                    <a href="https://hamsterkombatgame.io/" class="bottomBar-url"><em>HMSTERITO.com</em></a>
+                </div>
+                <div class="bottomBar-section">
+                    <ul class="bottomBar-menu">
+                        <li><a href="#">Другие площадки</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Конкуренты</a></li>
+                        <li><a href="#">Главная</a></li>
+                    </ul>
+                </div>
+                <div class="bottomBar-section social-media">
+                    <p class="bottomBar-header">Следите за нами в соц. сетях</p>
+                    <div class="network-badges">
+                        <a href="https://t.me/hamster_kombat"><img src="img/tg logo.png" alt="Telegram" class="networkIcon"></a>
+                        <a href="https://www.facebook.com/p/Hamster-Kombat-61561410780450/?locale=ru_RU"><img src="img/facebooklogo2.png" alt="Facebook" class="networkIcon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomBar-copyright">
+                <p class="titlePosition">© 2024-2025 HMSTERITO</p>
+                <a href="#">Лицензионное соглашение</a>
+                <a href="#" class="rightAlign">Политика конфиденциальности</a>
+            </div>
+        </footer>
+    </body>
+</html>
